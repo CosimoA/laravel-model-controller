@@ -1,7 +1,10 @@
 @extends('layouts.main-layout')
-@section('head')
-    <title>Home</title>
+@section('head-title')
+    <title>Homepage</title>
 @endsection
+
 @section('content')
-    <h1>Hello, World!</h1>
+
+    <h2>IO SONO IL MAIN</h2>
+
 @endsection

@@ -7,13 +7,11 @@
 
     @vite("resources/js/app.js")
 
-    @yield('head')
+    @yield('head-title')
 </head>
 <body>
-    <div class="text-center">
-        @include('components.header')
-        @yield('content')
-        @include('components.footer')
-    </div>
+    @include('components.header')
+    @yield('content')
+    @include('components.footer')
 </body>
 </html>
