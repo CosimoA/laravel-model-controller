@@ -4,7 +4,14 @@
 @endsection
 
 @section('content')
-
-    <h2>IO SONO IL MAIN</h2>
-
+    <main>
+        <h2>Movie:</h2>
+        <ul>
+            @foreach ($movies as $movie)
+                <li>
+                    {{ $movie -> title }}
+                </li>
+            @endforeach
+        </ul>
+    </main>
 @endsection
