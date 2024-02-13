@@ -5,13 +5,16 @@
 
 @section('content')
     <main>
-        <h2>Movie:</h2>
-        <ul>
-            @foreach ($movies as $movie)
-                <li>
-                    {{ $movie -> title }}
-                </li>
-            @endforeach
-        </ul>
+        <div class="container">
+            <h2>Movie:</h2>
+            <ul>
+                @foreach ($movies as $movie)
+                    <li>
+                        {{ $movie -> title }}
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+        
     </main>
 @endsection
